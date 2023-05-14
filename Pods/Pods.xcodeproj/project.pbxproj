@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534A2CACF5105681D73CB667062FBF31 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FD769FE3FBEE24E5DDADA82517B23D /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		699160AC23296DAC00CDEF5E4AD656A9 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF784BFF2B0DFF90F1EDC9885A9C6EC /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m */; };
+		7963CDB580C7FE891DC95FDD253DA6B9 /* Pods-DemoAppForUserClickMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63779EA29EA2889536CA50738AF36429 /* Pods-DemoAppForUserClickMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87633D80A9797BEABB59FA6F38C10AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E6C8A3580315691B88F268276ECBE0E /* Pods-DemoAppForUserClickMonitorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B286C3B3E45CFFBE7CD3720850D8FC /* Pods-DemoAppForUserClickMonitorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D3A6DB970C3B450F4F3D135FBFF260 /* Pods-DemoAppForUserClickMonitorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDC4B54BB57D260A3578B2F3CB4CEF /* Pods-DemoAppForUserClickMonitorTests-dummy.m */; };
+		AE250351B2CAAF40D83122D6CE96A9F9 /* ClickMonitorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7475EFD35D0BD8A72A933F5215D652B8 /* ClickMonitorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43665E96639E40D903F12786D4BDE15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFCAE426A667008F194670927821A0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2AC13F37DC29642F4DC7D0FCE69061E /* UserClickMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C990993756F188ED9BD653AD05FDA0 /* UserClickMonitor-dummy.m */; };
+		DEA921578A4828BFD1110CAA587CEB93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E268CAC93636B31412148BDAD720486E /* UserClickMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1F04DF888D0C6B7EE0B22AF94424FB /* UserClickMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B8529434A1667A2A1426E791E3B847 /* ClickMonitorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60F8D3778F64F3E26C9A71A3082098 /* ClickMonitorHelper.m */; };
+		F2AFBB96C0BB6ACA6C94CE9187FBDE8F /* Pods-DemoAppForUserClickMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69894A9402A54550E5CABF13D7397925 /* Pods-DemoAppForUserClickMonitor-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019FEE74ECE7293E49B3A44633BE2713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AA9BE83F13ED52AC9F2F8FD9273A49;
+			remoteInfo = UserClickMonitor;
+		};
+		41BF2286733DA82319873F73252FA5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AA9BE83F13ED52AC9F2F8FD9273A49;
+			remoteInfo = UserClickMonitor;
+		};
+		BF1241F85375E719CF1408AE6A5A42E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10805DCC6702F2F1B81FE294F1310FC;
+			remoteInfo = "Pods-DemoAppForUserClickMonitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0513A22E91811E5EA6700E077D199A95 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0677E02DA5130EF385DC9212A55F4E9C /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AE07C72C78E5D95B4071D114C3B20EB /* Pods-DemoAppForUserClickMonitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoAppForUserClickMonitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CFD48837624945D38D068F8A997E38E /* Pods-DemoAppForUserClickMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoAppForUserClickMonitor"; path = Pods_DemoAppForUserClickMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102516366F93149B85CC3F7CDFA51A0B /* UserClickMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UserClickMonitor.modulemap; sourceTree = "<group>"; };
+		1422814FDCCA5BA26292ADE6440D477B /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BCD30E2575DE38B9886057566C59A56 /* UserClickMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UserClickMonitor-Info.plist"; sourceTree = "<group>"; };
+		1C1F04DF888D0C6B7EE0B22AF94424FB /* UserClickMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserClickMonitor-umbrella.h"; sourceTree = "<group>"; };
+		1EF784BFF2B0DFF90F1EDC9885A9C6EC /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m"; sourceTree = "<group>"; };
+		217DC3972E263175EF9592134ABF9D54 /* UserClickMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UserClickMonitor; path = UserClickMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33590706A1AFEB58AE2CB184D93CE4F9 /* Pods-DemoAppForUserClickMonitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoAppForUserClickMonitor-frameworks.sh"; sourceTree = "<group>"; };
+		3472DE4A05FA6C5935A3FF68D5AE9902 /* Pods-DemoAppForUserClickMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitor-Info.plist"; sourceTree = "<group>"; };
+		37FD769FE3FBEE24E5DDADA82517B23D /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h"; sourceTree = "<group>"; };
+		42B286C3B3E45CFFBE7CD3720850D8FC /* Pods-DemoAppForUserClickMonitorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoAppForUserClickMonitorTests-umbrella.h"; sourceTree = "<group>"; };
+		484B5ED98B118B6AED37298BCE8D8452 /* Pods-DemoAppForUserClickMonitorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53C990993756F188ED9BD653AD05FDA0 /* UserClickMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UserClickMonitor-dummy.m"; sourceTree = "<group>"; };
+		577CF7D57DAE64445CBC0398B0E561A6 /* Pods-DemoAppForUserClickMonitorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoAppForUserClickMonitorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A44FD5CE03C4CA47D49BBDFFA0331A5 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F88192C08D212F9FE7969F609F5A936 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63779EA29EA2889536CA50738AF36429 /* Pods-DemoAppForUserClickMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoAppForUserClickMonitor-umbrella.h"; sourceTree = "<group>"; };
+		653964CA70F7D5957A4DF8DF7E51765B /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		69894A9402A54550E5CABF13D7397925 /* Pods-DemoAppForUserClickMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoAppForUserClickMonitor-dummy.m"; sourceTree = "<group>"; };
+		6CBD1A9186C47AFEECA66C4F77AF3C9E /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		734EE2A383D087849EFEB22C002B9204 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests"; path = Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7475EFD35D0BD8A72A933F5215D652B8 /* ClickMonitorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClickMonitorHelper.h; path = Classes/ClickMonitorHelper.h; sourceTree = "<group>"; };
+		8E49778F80EAFC5CDA52EEFE0494D845 /* UserClickMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserClickMonitor.release.xcconfig; sourceTree = "<group>"; };
+		92FB45D94D4A240DDD351B74C9EDDEAB /* Pods-DemoAppForUserClickMonitorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoAppForUserClickMonitorTests.modulemap"; sourceTree = "<group>"; };
+		98B88FAAA0C4A717D9044E2A13938939 /* Pods-DemoAppForUserClickMonitorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoAppForUserClickMonitorTests"; path = Pods_DemoAppForUserClickMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C52EB04388C87410DF4B530743E402 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B09A90C89CC358296299ACEE3D3DC3BA /* Pods-DemoAppForUserClickMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		BE125C3B84CDBE55219A18085C26C9ED /* UserClickMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserClickMonitor-prefix.pch"; sourceTree = "<group>"; };
+		C26DA5D28C8AE0C363D2AE47CA9327EB /* Pods-DemoAppForUserClickMonitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		C32395BF34B89FD27D77A38990486DA1 /* UserClickMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserClickMonitor.debug.xcconfig; sourceTree = "<group>"; };
+		C3DDC4B54BB57D260A3578B2F3CB4CEF /* Pods-DemoAppForUserClickMonitorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoAppForUserClickMonitorTests-dummy.m"; sourceTree = "<group>"; };
+		DEDFC19F2B61A88DABA3F9AF2C3DC653 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DF0EC4900F6231E2DB17853F1A5CC5F8 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoAppForUserClickMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC60F8D3778F64F3E26C9A71A3082098 /* ClickMonitorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClickMonitorHelper.m; path = Classes/ClickMonitorHelper.m; sourceTree = "<group>"; };
+		EEA7CCFF39D6A19E2FDAF81FC4EC8408 /* Pods-DemoAppForUserClickMonitorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoAppForUserClickMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		F0CE545C5A05536A60120A24550D8F83 /* Pods-DemoAppForUserClickMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoAppForUserClickMonitor.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D3BDE71250A54C72567953C433326D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87633D80A9797BEABB59FA6F38C10AB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF276180C64602958A01930E3824E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCAE426A667008F194670927821A0C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279A14DAFCFC0707F632C6DF62F49E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA921578A4828BFD1110CAA587CEB93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E737BF3D3F20B293677CE8418147A9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43665E96639E40D903F12786D4BDE15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0088A0B152CAADA4E39110D2A5884414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CFD48837624945D38D068F8A997E38E /* Pods-DemoAppForUserClickMonitor */,
+				734EE2A383D087849EFEB22C002B9204 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */,
+				98B88FAAA0C4A717D9044E2A13938939 /* Pods-DemoAppForUserClickMonitorTests */,
+				217DC3972E263175EF9592134ABF9D54 /* UserClickMonitor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9AD40CA8A235FF8692E4E0E5FAA684 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				102516366F93149B85CC3F7CDFA51A0B /* UserClickMonitor.modulemap */,
+				53C990993756F188ED9BD653AD05FDA0 /* UserClickMonitor-dummy.m */,
+				1BCD30E2575DE38B9886057566C59A56 /* UserClickMonitor-Info.plist */,
+				BE125C3B84CDBE55219A18085C26C9ED /* UserClickMonitor-prefix.pch */,
+				1C1F04DF888D0C6B7EE0B22AF94424FB /* UserClickMonitor-umbrella.h */,
+				C32395BF34B89FD27D77A38990486DA1 /* UserClickMonitor.debug.xcconfig */,
+				8E49778F80EAFC5CDA52EEFE0494D845 /* UserClickMonitor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UserClickMonitor";
+			sourceTree = "<group>";
+		};
+		2188592D988A7C68F4E045A2477CD167 /* Pods-DemoAppForUserClickMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FB45D94D4A240DDD351B74C9EDDEAB /* Pods-DemoAppForUserClickMonitorTests.modulemap */,
+				577CF7D57DAE64445CBC0398B0E561A6 /* Pods-DemoAppForUserClickMonitorTests-acknowledgements.markdown */,
+				484B5ED98B118B6AED37298BCE8D8452 /* Pods-DemoAppForUserClickMonitorTests-acknowledgements.plist */,
+				C3DDC4B54BB57D260A3578B2F3CB4CEF /* Pods-DemoAppForUserClickMonitorTests-dummy.m */,
+				EEA7CCFF39D6A19E2FDAF81FC4EC8408 /* Pods-DemoAppForUserClickMonitorTests-Info.plist */,
+				42B286C3B3E45CFFBE7CD3720850D8FC /* Pods-DemoAppForUserClickMonitorTests-umbrella.h */,
+				DF0EC4900F6231E2DB17853F1A5CC5F8 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */,
+				1422814FDCCA5BA26292ADE6440D477B /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */,
+			);
+			name = "Pods-DemoAppForUserClickMonitorTests";
+			path = "Target Support Files/Pods-DemoAppForUserClickMonitorTests";
+			sourceTree = "<group>";
+		};
+		4B719F27C353C11E2D498F2E5E73A782 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD1A9186C47AFEECA66C4F77AF3C9E /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.modulemap */,
+				5A44FD5CE03C4CA47D49BBDFFA0331A5 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.markdown */,
+				0513A22E91811E5EA6700E077D199A95 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-acknowledgements.plist */,
+				1EF784BFF2B0DFF90F1EDC9885A9C6EC /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m */,
+				DEDFC19F2B61A88DABA3F9AF2C3DC653 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks.sh */,
+				99C52EB04388C87410DF4B530743E402 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-Info.plist */,
+				37FD769FE3FBEE24E5DDADA82517B23D /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h */,
+				5F88192C08D212F9FE7969F609F5A936 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */,
+				0677E02DA5130EF385DC9212A55F4E9C /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */,
+			);
+			name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests";
+			path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		86305DE3F62B7A8F8BC4F1F4B6E8FE40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95010570EC8041620D3F77C78779A420 /* UserClickMonitor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AC1CE92A08D7917D98959D6F13121F3 /* Pods-DemoAppForUserClickMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE545C5A05536A60120A24550D8F83 /* Pods-DemoAppForUserClickMonitor.modulemap */,
+				0AE07C72C78E5D95B4071D114C3B20EB /* Pods-DemoAppForUserClickMonitor-acknowledgements.markdown */,
+				C26DA5D28C8AE0C363D2AE47CA9327EB /* Pods-DemoAppForUserClickMonitor-acknowledgements.plist */,
+				69894A9402A54550E5CABF13D7397925 /* Pods-DemoAppForUserClickMonitor-dummy.m */,
+				33590706A1AFEB58AE2CB184D93CE4F9 /* Pods-DemoAppForUserClickMonitor-frameworks.sh */,
+				3472DE4A05FA6C5935A3FF68D5AE9902 /* Pods-DemoAppForUserClickMonitor-Info.plist */,
+				63779EA29EA2889536CA50738AF36429 /* Pods-DemoAppForUserClickMonitor-umbrella.h */,
+				653964CA70F7D5957A4DF8DF7E51765B /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */,
+				B09A90C89CC358296299ACEE3D3DC3BA /* Pods-DemoAppForUserClickMonitor.release.xcconfig */,
+			);
+			name = "Pods-DemoAppForUserClickMonitor";
+			path = "Target Support Files/Pods-DemoAppForUserClickMonitor";
+			sourceTree = "<group>";
+		};
+		95010570EC8041620D3F77C78779A420 /* UserClickMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				7475EFD35D0BD8A72A933F5215D652B8 /* ClickMonitorHelper.h */,
+				EC60F8D3778F64F3E26C9A71A3082098 /* ClickMonitorHelper.m */,
+				1B9AD40CA8A235FF8692E4E0E5FAA684 /* Support Files */,
+			);
+			name = UserClickMonitor;
+			path = UserClickMonitor;
+			sourceTree = "<group>";
+		};
+		97CD06277BE8754E2D1E14D8E5293C2E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1CE92A08D7917D98959D6F13121F3 /* Pods-DemoAppForUserClickMonitor */,
+				4B719F27C353C11E2D498F2E5E73A782 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */,
+				2188592D988A7C68F4E045A2477CD167 /* Pods-DemoAppForUserClickMonitorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				86305DE3F62B7A8F8BC4F1F4B6E8FE40 /* Pods */,
+				0088A0B152CAADA4E39110D2A5884414 /* Products */,
+				97CD06277BE8754E2D1E14D8E5293C2E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83C1D56D385A99F2E1E0A71BBC9F1504 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534A2CACF5105681D73CB667062FBF31 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1097F2D32CA41251B2AE7C7964EC1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6C8A3580315691B88F268276ECBE0E /* Pods-DemoAppForUserClickMonitorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AA12779403A2240C7F4BDB22993DD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7963CDB580C7FE891DC95FDD253DA6B9 /* Pods-DemoAppForUserClickMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2353951BDDEC22FCA6798BEC3D2F24E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE250351B2CAAF40D83122D6CE96A9F9 /* ClickMonitorHelper.h in Headers */,
+				E268CAC93636B31412148BDAD720486E /* UserClickMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2317115B68117BA18DCF46B11F3149B1 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C19704E51A9B68680E4CD623CE7CF /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests" */;
+			buildPhases = (
+				83C1D56D385A99F2E1E0A71BBC9F1504 /* Headers */,
+				85E01A765C94CC4D29FF26274CE2F272 /* Sources */,
+				0AF276180C64602958A01930E3824E94 /* Frameworks */,
+				CC0B20315437A51521A69A81EDD60F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3559662257B98F3F38A2683B472A42 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests";
+			productName = Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests;
+			productReference = 734EE2A383D087849EFEB22C002B9204 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B10805DCC6702F2F1B81FE294F1310FC /* Pods-DemoAppForUserClickMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB624D1838B91A4B4D15BA818DC5362 /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitor" */;
+			buildPhases = (
+				A7AA12779403A2240C7F4BDB22993DD9 /* Headers */,
+				F769AA1CE94232EC3115A8906E135D24 /* Sources */,
+				E737BF3D3F20B293677CE8418147A9C6 /* Frameworks */,
+				8DEEE2560D92949DF697370ADDECA62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F09D6D6007C8485B7754B1C48DF5BF /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoAppForUserClickMonitor";
+			productName = Pods_DemoAppForUserClickMonitor;
+			productReference = 0CFD48837624945D38D068F8A997E38E /* Pods-DemoAppForUserClickMonitor */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8AA9BE83F13ED52AC9F2F8FD9273A49 /* UserClickMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E954855B827B04D388881851129E2F30 /* Build configuration list for PBXNativeTarget "UserClickMonitor" */;
+			buildPhases = (
+				C2353951BDDEC22FCA6798BEC3D2F24E /* Headers */,
+				2FA20D02F053F53083E52C8D3A48CE39 /* Sources */,
+				279A14DAFCFC0707F632C6DF62F49E36 /* Frameworks */,
+				90ADE3348E3325E182EAA24739268F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserClickMonitor;
+			productName = UserClickMonitor;
+			productReference = 217DC3972E263175EF9592134ABF9D54 /* UserClickMonitor */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4C73C522E6389976DBF6E5429351A29 /* Pods-DemoAppForUserClickMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75A8423ED1A10F1FCAA27FE2A95FDF5 /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitorTests" */;
+			buildPhases = (
+				8B1097F2D32CA41251B2AE7C7964EC1E /* Headers */,
+				A6EAC9830AD35F6685ECCBD237D56DEE /* Sources */,
+				00D3BDE71250A54C72567953C433326D /* Frameworks */,
+				72A2CFD18178E074F584A38DB498BEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D752A5FB56ECF4DA9D7ACEFCC32AD58 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoAppForUserClickMonitorTests";
+			productName = Pods_DemoAppForUserClickMonitorTests;
+			productReference = 98B88FAAA0C4A717D9044E2A13938939 /* Pods-DemoAppForUserClickMonitorTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0088A0B152CAADA4E39110D2A5884414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10805DCC6702F2F1B81FE294F1310FC /* Pods-DemoAppForUserClickMonitor */,
+				2317115B68117BA18DCF46B11F3149B1 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests */,
+				C4C73C522E6389976DBF6E5429351A29 /* Pods-DemoAppForUserClickMonitorTests */,
+				B8AA9BE83F13ED52AC9F2F8FD9273A49 /* UserClickMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A2CFD18178E074F584A38DB498BEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEE2560D92949DF697370ADDECA62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ADE3348E3325E182EAA24739268F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0B20315437A51521A69A81EDD60F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA20D02F053F53083E52C8D3A48CE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B8529434A1667A2A1426E791E3B847 /* ClickMonitorHelper.m in Sources */,
+				C2AC13F37DC29642F4DC7D0FCE69061E /* UserClickMonitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E01A765C94CC4D29FF26274CE2F272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699160AC23296DAC00CDEF5E4AD656A9 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EAC9830AD35F6685ECCBD237D56DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3A6DB970C3B450F4F3D135FBFF260 /* Pods-DemoAppForUserClickMonitorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F769AA1CE94232EC3115A8906E135D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AFBB96C0BB6ACA6C94CE9187FBDE8F /* Pods-DemoAppForUserClickMonitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D752A5FB56ECF4DA9D7ACEFCC32AD58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DemoAppForUserClickMonitor";
+			target = B10805DCC6702F2F1B81FE294F1310FC /* Pods-DemoAppForUserClickMonitor */;
+			targetProxy = BF1241F85375E719CF1408AE6A5A42E0 /* PBXContainerItemProxy */;
+		};
+		A1F09D6D6007C8485B7754B1C48DF5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserClickMonitor;
+			target = B8AA9BE83F13ED52AC9F2F8FD9273A49 /* UserClickMonitor */;
+			targetProxy = 019FEE74ECE7293E49B3A44633BE2713 /* PBXContainerItemProxy */;
+		};
+		EC3559662257B98F3F38A2683B472A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserClickMonitor;
+			target = B8AA9BE83F13ED52AC9F2F8FD9273A49 /* UserClickMonitor */;
+			targetProxy = 41BF2286733DA82319873F73252FA5C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		258C639EC28DCD6892FDEBC1ADAF9A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32395BF34B89FD27D77A38990486DA1 /* UserClickMonitor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UserClickMonitor/UserClickMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UserClickMonitor/UserClickMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UserClickMonitor/UserClickMonitor.modulemap";
+				PRODUCT_MODULE_NAME = UserClickMonitor;
+				PRODUCT_NAME = UserClickMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		420841EE0B6222FB954742DD92829371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677E02DA5130EF385DC9212A55F4E9C /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49BBAD20713E06EB38099FF87DEE6F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E49778F80EAFC5CDA52EEFE0494D845 /* UserClickMonitor.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UserClickMonitor/UserClickMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UserClickMonitor/UserClickMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UserClickMonitor/UserClickMonitor.modulemap";
+				PRODUCT_MODULE_NAME = UserClickMonitor;
+				PRODUCT_NAME = UserClickMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9526FCF43C17F78C6E6777D40C56F3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09A90C89CC358296299ACEE3D3DC3BA /* Pods-DemoAppForUserClickMonitor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5D409312BBC65B0C4FAF358EECA4179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0EC4900F6231E2DB17853F1A5CC5F8 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F221C4F2EBDFBC1EEBD1498DBDA244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653964CA70F7D5957A4DF8DF7E51765B /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF035C7D798FC41AB719BB9F456A72E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F88192C08D212F9FE7969F609F5A936 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F47AE0C5B1097AA8A5AEAA9662D555B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1422814FDCCA5BA26292ADE6440D477B /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB624D1838B91A4B4D15BA818DC5362 /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F221C4F2EBDFBC1EEBD1498DBDA244 /* Debug */,
+				9526FCF43C17F78C6E6777D40C56F3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58C19704E51A9B68680E4CD623CE7CF /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF035C7D798FC41AB719BB9F456A72E2 /* Debug */,
+				420841EE0B6222FB954742DD92829371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75A8423ED1A10F1FCAA27FE2A95FDF5 /* Build configuration list for PBXNativeTarget "Pods-DemoAppForUserClickMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D409312BBC65B0C4FAF358EECA4179 /* Debug */,
+				F47AE0C5B1097AA8A5AEAA9662D555B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E954855B827B04D388881851129E2F30 /* Build configuration list for PBXNativeTarget "UserClickMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258C639EC28DCD6892FDEBC1ADAF9A00 /* Debug */,
+				49BBAD20713E06EB38099FF87DEE6F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

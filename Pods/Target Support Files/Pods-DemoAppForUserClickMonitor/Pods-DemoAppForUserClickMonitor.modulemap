@@ -1,0 +1,6 @@
+framework module Pods_DemoAppForUserClickMonitor {
+  umbrella header "Pods-DemoAppForUserClickMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "64334BE4-2ED8-475A-B5B3-BC0163DF3EC2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4E71E86-EEF4-4B85-B641-7AA1595EB662"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoAppForUserClickMonitor/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getAggrgatedClickCount(second:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA3A3D3E-AD99-43A7-8F21-02F665BBB633"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-getAggregatedAnswer:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA3A3D3E-AD99-43A7-8F21-02F665BBB633 - a30c3ffbb7bc66d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
+                  moduleName = "UserClickMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "BA3A3D3E-AD99-43A7-8F21-02F665BBB633 - a30c3ffbb7bc66d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
+                  moduleName = "UserClickMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5CC9815-EE2D-45F7-A3CB-2CC0FEF34FE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-convertStringToDate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B57F7439-1E6B-4346-8547-2FDD1B55F2A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-convertStringToDate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03824B2B-2CB7-43A5-9000-88AFAEDAFE76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-getAggregatedAnswer:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03824B2B-2CB7-43A5-9000-88AFAEDAFE76 - a30c3ffbb7bc66f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
+                  moduleName = "UserClickMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "03824B2B-2CB7-43A5-9000-88AFAEDAFE76 - a30c3ffbb7bc66f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
+                  moduleName = "UserClickMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B15AA539-4F6F-41AC-8116-320A4AB090AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

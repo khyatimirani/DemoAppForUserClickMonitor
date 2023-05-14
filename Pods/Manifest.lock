@@ -1,0 +1,21 @@
+PODS:
+  - UserClickMonitor (0.0.1)
+
+DEPENDENCIES:
+  - "UserClickMonitor (from `git@github.com:khyatimirani/UserClickMonitor.git`)"
+
+EXTERNAL SOURCES:
+  UserClickMonitor:
+    :git: "git@github.com:khyatimirani/UserClickMonitor.git"
+
+CHECKOUT OPTIONS:
+  UserClickMonitor:
+    :commit: 70d5933c6b327600026d2eb42143d86220e6c1fc
+    :git: "git@github.com:khyatimirani/UserClickMonitor.git"
+
+SPEC CHECKSUMS:
+  UserClickMonitor: 40a4c7336640357597807a6dc7cb633e6f42c8a2
+
+PODFILE CHECKSUM: 750314c78b4292bdc83fa871da022c1bf75267ef
+
+COCOAPODS: 1.12.1
