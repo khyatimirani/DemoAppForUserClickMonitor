@@ -10,19 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var viewModel = ViewModel()
     var body: some View {
-        Button("I love Burgers 🍔") {
-            viewModel.saveClickAction(click: "Burgers")
-            print("Burger clicked at")
-        }
-        
-        Button("I love Pizza 🍕") {
-            viewModel.saveClickAction(click: "Burgers")
-            print("Pizza clicked")
-        }
-        
-        Button("Get last 10 sec click data") {
-           let count =  viewModel.getAggrgatedClickCount(second: 20)
-            print("Burgers clicked \(count)")
+        VStack(alignment: .center, spacing: 20){
+            Button("I love Burgers 🍔") {
+                viewModel.saveClickAction(click: "Burgers")
+                print("Burger clicked at \(Date())")
+            }
+            
+            Button("10 Sec") {
+                let count =  viewModel.getAggrgatedClickCount(second: 10)
+                print("User clicked burger for \(count) times in last 10 sec")
+            }
+            
+            Button("20 Sec") {
+                let count =  Int(viewModel.getAggrgatedClickCount(second: 20))
+                print("User clicked burger for \(count) times in last 20 sec")
+            }
         }
     }
 }
