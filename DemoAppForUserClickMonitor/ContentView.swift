@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var viewModel = ViewModel()
+    var viewModel = ContentViewViewModel()
     var body: some View {
         VStack(alignment: .center, spacing: 20){
             Button("I love Burgers 🍔") {

@@ -8,11 +8,11 @@
 import Foundation
 import UserClickMonitor
 
-class ViewModel {
-    func saveClickAction(click:String) {
+class ContentViewViewModel {
+    func saveClickAction(click:String) -> Bool {
         let timeStamp = getCurrentTime()
         let clickMonitorHelper = ClickMonitorHelper()
-        clickMonitorHelper.addEvent(toSystem: click, timeStamp)
+        return clickMonitorHelper.addEvent(toSystem: click, timeStamp)
     }
     
     private func getCurrentTime() -> String {

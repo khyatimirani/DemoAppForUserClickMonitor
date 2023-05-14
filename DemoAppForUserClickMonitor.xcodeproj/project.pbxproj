@@ -16,7 +16,9 @@
 		C962E26C2A0FADAF009CDB2D /* DemoAppForUserClickMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962E26B2A0FADAF009CDB2D /* DemoAppForUserClickMonitorTests.swift */; };
 		C962E2762A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962E2752A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.swift */; };
 		C962E2782A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962E2772A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITestsLaunchTests.swift */; };
-		C9FBCAF42A10D06200EF84B3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FBCAF32A10D06200EF84B3 /* ViewModel.swift */; };
+		C9FBCAF42A10D06200EF84B3 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FBCAF32A10D06200EF84B3 /* ContentViewViewModel.swift */; };
+		C9FBCAF62A11057800EF84B3 /* ContentViewViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FBCAF52A11057800EF84B3 /* ContentViewViewModelTest.swift */; };
+		C9FBCAF72A11070900EF84B3 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FBCAF32A10D06200EF84B3 /* ContentViewViewModel.swift */; };
 		DE3E8AFD40C53CF685608CA3 /* Pods_DemoAppForUserClickMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDCFC88E48E5EE311244E75 /* Pods_DemoAppForUserClickMonitorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +56,8 @@
 		C962E2712A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppForUserClickMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C962E2752A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppForUserClickMonitorUITests.swift; sourceTree = "<group>"; };
 		C962E2772A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppForUserClickMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C9FBCAF32A10D06200EF84B3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C9FBCAF32A10D06200EF84B3 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		C9FBCAF52A11057800EF84B3 /* ContentViewViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModelTest.swift; sourceTree = "<group>"; };
 		E58E52C1A0BE7ED5D0B31D97 /* Pods_DemoAppForUserClickMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C3F2751E5D3828DD1132A /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CF0B917D26901BC37C7C0D /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				C962E25A2A0FADAB009CDB2D /* DemoAppForUserClickMonitorApp.swift */,
-				C9FBCAF32A10D06200EF84B3 /* ViewModel.swift */,
+				C9FBCAF32A10D06200EF84B3 /* ContentViewViewModel.swift */,
 				C962E25C2A0FADAB009CDB2D /* ContentView.swift */,
 				C962E25E2A0FADAF009CDB2D /* Assets.xcassets */,
 				C962E2602A0FADAF009CDB2D /* Preview Content */,
@@ -147,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				C962E26B2A0FADAF009CDB2D /* DemoAppForUserClickMonitorTests.swift */,
+				C9FBCAF52A11057800EF84B3 /* ContentViewViewModelTest.swift */,
 			);
 			path = DemoAppForUserClickMonitorTests;
 			sourceTree = "<group>";
@@ -409,7 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C962E25D2A0FADAB009CDB2D /* ContentView.swift in Sources */,
-				C9FBCAF42A10D06200EF84B3 /* ViewModel.swift in Sources */,
+				C9FBCAF42A10D06200EF84B3 /* ContentViewViewModel.swift in Sources */,
 				C962E25B2A0FADAB009CDB2D /* DemoAppForUserClickMonitorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C962E26C2A0FADAF009CDB2D /* DemoAppForUserClickMonitorTests.swift in Sources */,
+				C9FBCAF62A11057800EF84B3 /* ContentViewViewModelTest.swift in Sources */,
+				C9FBCAF72A11070900EF84B3 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
