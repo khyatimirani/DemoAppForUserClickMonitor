@@ -22,17 +22,8 @@ class ContentViewViewModelTest: XCTestCase {
         viewModel?.saveClickAction(click: "Burgers")
         viewModel?.saveClickAction(click: "Burgers")
         viewModel?.saveClickAction(click: "Burgers")
-        let results = viewModel?.getAggrgatedClickCount(second: 10) ?? 0
-        XCTAssertEqual(3.0, results)
+        let results:[Float] = [3.0, 3.0, 3.0]
+        XCTAssertEqual(results, viewModel?.getAggregatedAnswer("Burgers"))
     }
     
-    func testGetAggrgatedClickCountForTenSeconds() {
-        viewModel = ContentViewViewModel()
-        viewModel?.saveClickAction(click: "Burgers")
-        viewModel?.saveClickAction(click: "Burgers")
-        viewModel?.saveClickAction(click: "Burgers")
-        viewModel?.saveClickAction(click: "Burgers")
-        let results = viewModel?.getAggrgatedClickCount(second: 20) ?? 0
-        XCTAssertEqual(4, results)
-    }
 }
