@@ -16,15 +16,11 @@ struct ContentView: View {
                 print("Burger clicked at \(Date())")
             }
             
-            Button("10 Sec") {
+            Button("Get Aggrgated Clicks made by user") {
                 let count =  viewModel.getAggrgatedClickCount(second: 10)
-                print("User clicked burger for \(count) times in last 10 sec")
+                print("User clicked burger for \(count) times in last 10 sec, 20 sec and 150 sec")
             }
-            
-            Button("20 Sec") {
-                let count =  Int(viewModel.getAggrgatedClickCount(second: 20))
-                print("User clicked burger for \(count) times in last 20 sec")
-            }
+
         }
     }
 }

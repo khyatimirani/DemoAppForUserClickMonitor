@@ -11,7 +11,7 @@ import UserClickMonitor
 class ContentViewViewModel {
     func saveClickAction(click:String) -> Bool {
         let timeStamp = getCurrentTime()
-        let clickMonitorHelper = ClickMonitorHelper()
+        let clickMonitorHelper = ClickMonitorCPPWrapper()
         return clickMonitorHelper.addEvent(toSystem: click, timeStamp)
     }
     
@@ -22,9 +22,9 @@ class ContentViewViewModel {
         return  format.string(from: mytime)
     }
     
-    func getAggrgatedClickCount(second: Int) -> Float {
-        let clickMonitorHelper = ClickMonitorHelper()
-        let clickCount = clickMonitorHelper.getAggregatedAnswer(Int32(second))
-        return clickCount
+    func getAggrgatedClickCount(second: Int) -> [Float] {
+        let clickMonitorHelper = ClickMonitorCPPWrapper()
+        let clickCount = clickMonitorHelper.getAggregatedAnswer("Burgers")
+        return clickCount as! [Float]
     }
 }

@@ -34,38 +34,6 @@
             endingLineNumber = "25"
             landmarkName = "-getAggregatedAnswer:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "79D256E3-6519-4FFA-9A7A-26942040F845 - a30c3ffbb7bc6619"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
-                  moduleName = "UserClickMonitor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "319">
-               </Location>
-               <Location
-                  uuid = "79D256E3-6519-4FFA-9A7A-26942040F845 - a30c3ffbb7bc6619"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ClickMonitorHelper getAggregatedAnswer:]"
-                  moduleName = "UserClickMonitor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "345">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -82,38 +50,102 @@
             endingLineNumber = "37"
             landmarkName = "-checkIfGivenIntervalMatches::"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2B83158D-6174-4C4B-8E1A-1306F98C17E3 - be59293895ddc4d0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ClickMonitorHelper checkIfGivenIntervalMatches:]"
-                  moduleName = "UserClickMonitor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "115">
-               </Location>
-               <Location
-                  uuid = "2B83158D-6174-4C4B-8E1A-1306F98C17E3 - 7691f902a9442b15"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ClickMonitorHelper checkIfGivenIntervalMatches::]"
-                  moduleName = "UserClickMonitor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khyatimirani/Documents/DemoAppForUserClickMonitor/Pods/UserClickMonitor/Classes/ClickMonitorHelper.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "141">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "422BFB86-20AE-4DE4-97FC-8152C639D1B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoAppForUserClickMonitor/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getAggrgatedClickCount(second:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1001D485-4689-46D6-A68B-BA8A762A1D4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ClickMonitorCPP::addEventToSystem(key, value)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F5493ED-1C95-4121-BBAB-4EFA1F89D8A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ClickMonitorCPP::getAggregatedAnswer(key)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93187E17-2619-46D3-B4CB-F38446A79AAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "ClickMonitorCPP::getAggregatedAnswer(key)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A960E55-FFEE-422E-A21F-E88194063720"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "ClickMonitorCPP::getAggregatedAnswer(key)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "322C9CEB-D672-4254-ADB9-9F95C224F515"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/UserClickMonitor/Classes/ClickMonitorCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "ClickMonitorCPP::getAggregatedAnswer(key)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
