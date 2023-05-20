@@ -22,9 +22,9 @@ class ContentViewViewModel {
         return  format.string(from: mytime)
     }
     
-    func getAggrgatedClickCount(second: Int) -> [Float] {
+    func getAggregatedAnswer(_ forKey: String) -> [Float] {
         let clickMonitorHelper = ClickMonitorCPPWrapper()
-        let clickCount = clickMonitorHelper.getAggregatedAnswer("Burgers")
+        let clickCount = clickMonitorHelper.getAggregatedAnswer(forKey)
         return clickCount as! [Float]
     }
 }

@@ -12,12 +12,12 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 20){
             Button("I love Burgers 🍔") {
-                viewModel.saveClickAction(click: "Burgers")
+                viewModel.saveClickAction(click: "key1")
                 print("Burger clicked at \(Date())")
             }
             
-            Button("Get Aggrgated Clicks made by user") {
-                let count =  viewModel.getAggrgatedClickCount(second: 10)
+            Button("Get aggregated clicks made by user") {
+                let count =  viewModel.getAggregatedAnswer("key1")
                 print("User clicked burger for \(count) times in last 10 sec, 20 sec and 150 sec")
             }
 
