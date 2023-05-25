@@ -1,6 +1,6 @@
 {
   "name": "UserClickMonitor",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "summary": "A short description of UserClickMonitor.",
   "description": "this pod is helping to monitor users click event",
   "homepage": "https://github.com/khyatimirani/UserClickMonitor.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/khyatimirani/UserClickMonitor.git",
-    "tag": "1.2.0"
+    "tag": "1.3.0"
   },
   "platforms": {
     "ios": "10.0"

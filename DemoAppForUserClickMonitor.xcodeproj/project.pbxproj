@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DC790308163E24D39F10342 /* Pods_DemoAppForUserClickMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE1AF3943D97EDE4C5735C /* Pods_DemoAppForUserClickMonitor.framework */; };
-		886FA71F27F79F0284920F02 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13BC15474F895DB68B53B3 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */; };
-		88DC9AA720B27463CFE75326 /* Pods_DemoAppForUserClickMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB55AF153A05297DBA5002 /* Pods_DemoAppForUserClickMonitorTests.framework */; };
+		059BACD7200204A762868060 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE712B25ADD963923949C42 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */; };
+		29B3B9A4BD83CA10EBB9BA69 /* Pods_DemoAppForUserClickMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB34807777D938BDA521E37 /* Pods_DemoAppForUserClickMonitor.framework */; };
+		3DA0147E66768FB1958EAB12 /* Pods_DemoAppForUserClickMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE06BDBB21B8BE733A4A8063 /* Pods_DemoAppForUserClickMonitorTests.framework */; };
 		C962E25B2A0FADAB009CDB2D /* DemoAppForUserClickMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962E25A2A0FADAB009CDB2D /* DemoAppForUserClickMonitorApp.swift */; };
 		C962E25D2A0FADAB009CDB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962E25C2A0FADAB009CDB2D /* ContentView.swift */; };
 		C962E25F2A0FADAF009CDB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C962E25E2A0FADAF009CDB2D /* Assets.xcassets */; };
@@ -40,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C69AEF8BB75FC8D16290DEB /* Pods-DemoAppForUserClickMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.release.xcconfig"; sourceTree = "<group>"; };
-		583BA688C75EE0FFFF4A3A35 /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.debug.xcconfig"; sourceTree = "<group>"; };
-		9C13BC15474F895DB68B53B3 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBD4CEEABF95A833E03AA8CE /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C358BE2391AED0D708C6A2D8 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		12382B012B78FED1BDB622A4 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		23DDEC3CE0CFDB362C25ECA7 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitorTests/Pods-DemoAppForUserClickMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EB34807777D938BDA521E37 /* Pods_DemoAppForUserClickMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A64598C537887AE33B6A10F /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		B2963C9BB70333F1E4CEC865 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C904A5F62A18B027002A116E /* DemoAppForUserClickMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoAppForUserClickMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
 		C962E2572A0FADAB009CDB2D /* DemoAppForUserClickMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppForUserClickMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C962E25A2A0FADAB009CDB2D /* DemoAppForUserClickMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppForUserClickMonitorApp.swift; sourceTree = "<group>"; };
@@ -56,12 +56,12 @@
 		C962E2712A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppForUserClickMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C962E2752A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppForUserClickMonitorUITests.swift; sourceTree = "<group>"; };
 		C962E2772A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppForUserClickMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C9CE1AF3943D97EDE4C5735C /* Pods_DemoAppForUserClickMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FBCAF32A10D06200EF84B3 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 		C9FBCAF52A11057800EF84B3 /* ContentViewViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModelTest.swift; sourceTree = "<group>"; };
-		E93094088959D1035F42092B /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EAEB55AF153A05297DBA5002 /* Pods_DemoAppForUserClickMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEE0DCEDE5BC1243E57DB169 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E12B1A4E2D50D9FD0EDFA1 /* Pods-DemoAppForUserClickMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		DE06BDBB21B8BE733A4A8063 /* Pods_DemoAppForUserClickMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A035315C7A19A2826529E8 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE712B25ADD963923949C42 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC790308163E24D39F10342 /* Pods_DemoAppForUserClickMonitor.framework in Frameworks */,
+				29B3B9A4BD83CA10EBB9BA69 /* Pods_DemoAppForUserClickMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88DC9AA720B27463CFE75326 /* Pods_DemoAppForUserClickMonitorTests.framework in Frameworks */,
+				3DA0147E66768FB1958EAB12 /* Pods_DemoAppForUserClickMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886FA71F27F79F0284920F02 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework in Frameworks */,
+				059BACD7200204A762868060 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,24 +95,14 @@
 		16C99C927B1D5801D31CCDC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				583BA688C75EE0FFFF4A3A35 /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */,
-				1C69AEF8BB75FC8D16290DEB /* Pods-DemoAppForUserClickMonitor.release.xcconfig */,
-				FEE0DCEDE5BC1243E57DB169 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */,
-				E93094088959D1035F42092B /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */,
-				BBD4CEEABF95A833E03AA8CE /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */,
-				C358BE2391AED0D708C6A2D8 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */,
+				9A64598C537887AE33B6A10F /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */,
+				D6E12B1A4E2D50D9FD0EDFA1 /* Pods-DemoAppForUserClickMonitor.release.xcconfig */,
+				B2963C9BB70333F1E4CEC865 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */,
+				F3A035315C7A19A2826529E8 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */,
+				23DDEC3CE0CFDB362C25ECA7 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */,
+				12382B012B78FED1BDB622A4 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		A1D5A0CF6D0C0D4A60042E4A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C9CE1AF3943D97EDE4C5735C /* Pods_DemoAppForUserClickMonitor.framework */,
-				9C13BC15474F895DB68B53B3 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */,
-				EAEB55AF153A05297DBA5002 /* Pods_DemoAppForUserClickMonitorTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C962E24E2A0FADAB009CDB2D = {
@@ -123,7 +113,7 @@
 				C962E2742A0FADAF009CDB2D /* DemoAppForUserClickMonitorUITests */,
 				C962E2582A0FADAB009CDB2D /* Products */,
 				16C99C927B1D5801D31CCDC3 /* Pods */,
-				A1D5A0CF6D0C0D4A60042E4A /* Frameworks */,
+				CCB0CECCE88942F858DED1FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +166,16 @@
 			path = DemoAppForUserClickMonitorUITests;
 			sourceTree = "<group>";
 		};
+		CCB0CECCE88942F858DED1FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB34807777D938BDA521E37 /* Pods_DemoAppForUserClickMonitor.framework */,
+				FAE712B25ADD963923949C42 /* Pods_DemoAppForUserClickMonitor_DemoAppForUserClickMonitorUITests.framework */,
+				DE06BDBB21B8BE733A4A8063 /* Pods_DemoAppForUserClickMonitorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,11 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C962E27B2A0FADAF009CDB2D /* Build configuration list for PBXNativeTarget "DemoAppForUserClickMonitor" */;
 			buildPhases = (
-				E10210344D7CBFFE45CD991C /* [CP] Check Pods Manifest.lock */,
+				DD5709996434F2E3BF0A12E9 /* [CP] Check Pods Manifest.lock */,
 				C962E2532A0FADAB009CDB2D /* Sources */,
 				C962E2542A0FADAB009CDB2D /* Frameworks */,
 				C962E2552A0FADAB009CDB2D /* Resources */,
-				DA05B15747A591D0B9F13B7B /* [CP] Embed Pods Frameworks */,
+				D4093B1E0D58BE147BA2D9CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C962E27E2A0FADAF009CDB2D /* Build configuration list for PBXNativeTarget "DemoAppForUserClickMonitorTests" */;
 			buildPhases = (
-				2694B122BFF1E93DCC461A3D /* [CP] Check Pods Manifest.lock */,
+				58E21282587764B776DD05AA /* [CP] Check Pods Manifest.lock */,
 				C962E2632A0FADAF009CDB2D /* Sources */,
 				C962E2642A0FADAF009CDB2D /* Frameworks */,
 				C962E2652A0FADAF009CDB2D /* Resources */,
@@ -221,11 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C962E2812A0FADAF009CDB2D /* Build configuration list for PBXNativeTarget "DemoAppForUserClickMonitorUITests" */;
 			buildPhases = (
-				BC5808A72FA5B4B6C1B8EF3B /* [CP] Check Pods Manifest.lock */,
+				42C4E4C6442CC4FC379A4F51 /* [CP] Check Pods Manifest.lock */,
 				C962E26D2A0FADAF009CDB2D /* Sources */,
 				C962E26E2A0FADAF009CDB2D /* Frameworks */,
 				C962E26F2A0FADAF009CDB2D /* Resources */,
-				1596B1CA28727240E1321964 /* [CP] Embed Pods Frameworks */,
+				BB9A2418866BAB4DE5902BF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,46 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1596B1CA28727240E1321964 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2694B122BFF1E93DCC461A3D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoAppForUserClickMonitorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC5808A72FA5B4B6C1B8EF3B /* [CP] Check Pods Manifest.lock */ = {
+		42C4E4C6442CC4FC379A4F51 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +329,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA05B15747A591D0B9F13B7B /* [CP] Embed Pods Frameworks */ = {
+		58E21282587764B776DD05AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoAppForUserClickMonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9A2418866BAB4DE5902BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests/Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4093B1E0D58BE147BA2D9CF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,7 +385,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoAppForUserClickMonitor/Pods-DemoAppForUserClickMonitor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E10210344D7CBFFE45CD991C /* [CP] Check Pods Manifest.lock */ = {
+		DD5709996434F2E3BF0A12E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,7 +583,7 @@
 		};
 		C962E27C2A0FADAF009CDB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 583BA688C75EE0FFFF4A3A35 /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */;
+			baseConfigurationReference = 9A64598C537887AE33B6A10F /* Pods-DemoAppForUserClickMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -593,6 +593,10 @@
 				DEVELOPMENT_TEAM = 8G587YVC55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/",
+					"$(inherited)",
+				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -610,12 +614,13 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		C962E27D2A0FADAF009CDB2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C69AEF8BB75FC8D16290DEB /* Pods-DemoAppForUserClickMonitor.release.xcconfig */;
+			baseConfigurationReference = D6E12B1A4E2D50D9FD0EDFA1 /* Pods-DemoAppForUserClickMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -625,7 +630,7 @@
 				DEVELOPMENT_TEAM = 8G587YVC55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -642,12 +647,13 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		C962E27F2A0FADAF009CDB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBD4CEEABF95A833E03AA8CE /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */;
+			baseConfigurationReference = 23DDEC3CE0CFDB362C25ECA7 /* Pods-DemoAppForUserClickMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,7 +679,7 @@
 		};
 		C962E2802A0FADAF009CDB2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C358BE2391AED0D708C6A2D8 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */;
+			baseConfigurationReference = 12382B012B78FED1BDB622A4 /* Pods-DemoAppForUserClickMonitorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -699,7 +705,7 @@
 		};
 		C962E2822A0FADAF009CDB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEE0DCEDE5BC1243E57DB169 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */;
+			baseConfigurationReference = B2963C9BB70333F1E4CEC865 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -723,7 +729,7 @@
 		};
 		C962E2832A0FADAF009CDB2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E93094088959D1035F42092B /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */;
+			baseConfigurationReference = F3A035315C7A19A2826529E8 /* Pods-DemoAppForUserClickMonitor-DemoAppForUserClickMonitorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

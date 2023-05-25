@@ -9,5 +9,4 @@
 //#define DemoAppForUserClickMonitor_Bridging_Header_h
 
 #import "UserClickMonitor/UserClickMonitor-umbrella.h"
-#import "UserClickMonitor/ClickMonitorCPPWrapper.h"
 //#endif /* DemoAppForUserClickMonitor_Bridging_Header_h */

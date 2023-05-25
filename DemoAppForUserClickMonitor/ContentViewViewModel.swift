@@ -9,7 +9,7 @@ import Foundation
 import UserClickMonitor
 
 class ContentViewViewModel {
-    func saveClickAction(click:String, key: String) -> Bool {
+    func saveClickAction(key: String, click: String) -> Bool {
         let clickMonitorHelper = ClickMonitor()
         return clickMonitorHelper.addEventToSystem(map: [key: click])
     }

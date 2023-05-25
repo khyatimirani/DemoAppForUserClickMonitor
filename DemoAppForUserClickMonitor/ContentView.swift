@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 20){
             Button("I love Burgers 🍔") {
-                viewModel.saveClickAction(click: "key1")
+                viewModel.saveClickAction(key: "key1", click: "2")
                 print("Burger clicked at \(Date())")
             }
             

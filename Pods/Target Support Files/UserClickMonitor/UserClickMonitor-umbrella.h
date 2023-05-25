@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "ClickMonitorCPP.hpp"
 #import "ClickMonitorCPPWrapper.h"
 
 FOUNDATION_EXPORT double UserClickMonitorVersionNumber;
