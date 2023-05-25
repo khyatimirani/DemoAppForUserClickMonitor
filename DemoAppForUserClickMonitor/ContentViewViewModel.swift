@@ -9,18 +9,11 @@ import Foundation
 import UserClickMonitor
 
 class ContentViewViewModel {
-    func saveClickAction(click:String) -> Bool {
-        let timeStamp = getCurrentTime()
-        let clickMonitorHelper = ClickMonitorCPPWrapper()
-        return clickMonitorHelper.addEvent(toSystem: click, timeStamp)
+    func saveClickAction(click:String, key: String) -> Bool {
+        let clickMonitorHelper = ClickMonitor()
+        return clickMonitorHelper.addEventToSystem(map: [key: click])
     }
     
-    private func getCurrentTime() -> String {
-        let mytime = Date()
-        let format = DateFormatter()
-        format.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-        return  format.string(from: mytime)
-    }
     
     func getAggregatedAnswer(_ forKey: String) -> [Float] {
         let clickMonitorHelper = ClickMonitorCPPWrapper()
