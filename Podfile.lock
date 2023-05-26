@@ -1,5 +1,5 @@
 PODS:
-  - UserClickMonitor (1.3.0)
+  - UserClickMonitor (1.4.0)
 
 DEPENDENCIES:
   - "UserClickMonitor (from `git@github.com:khyatimirani/UserClickMonitor.git`)"
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UserClickMonitor:
-    :commit: 31d60a63c37c8b1651d87c65851c02bf5a223464
+    :commit: 94c666d341aca90064b1e6ab86e4af1f1b5d999e
     :git: "git@github.com:khyatimirani/UserClickMonitor.git"
 
 SPEC CHECKSUMS:
-  UserClickMonitor: 1c00b410f9a8be4ed953e2ce27a3a1ab234a0f3c
+  UserClickMonitor: 577e706e7916e5089b150897cfe664e2e5e44b3a
 
 PODFILE CHECKSUM: 750314c78b4292bdc83fa871da022c1bf75267ef
 

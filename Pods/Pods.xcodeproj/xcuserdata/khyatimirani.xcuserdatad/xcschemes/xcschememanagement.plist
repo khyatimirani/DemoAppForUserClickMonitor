@@ -22,7 +22,7 @@
 		<key>UserClickMonitor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

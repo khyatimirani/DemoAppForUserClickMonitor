@@ -18,6 +18,7 @@ class ContentViewViewModel {
     func getAggregatedAnswer(_ forKey: String) -> [Float] {
         let clickMonitorHelper = ClickMonitorCPPWrapper()
         let clickCount = clickMonitorHelper.getAggregatedAnswer(forKey)
-        return clickCount as! [Float]
+        guard let resultArray = clickCount as? [Float] else { return [0,0,0] }
+        return resultArray
     }
 }
